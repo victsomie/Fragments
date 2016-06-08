@@ -9,8 +9,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.victor.fragments.MainActivity">
 
-    <TextView
+
+    <fragment
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:name="com.example.victor.fragments.TopSectionFragment"
+        android:id="@+id/fragment"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:layout="@layout/top_section_fragment" />
+
+    <fragment
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:name="com.example.victor.fragments.BottomSectionFragment"
+        android:id="@+id/fragment2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        tools:layout="@layout/bottom_picture_fragment" />
 </RelativeLayout>

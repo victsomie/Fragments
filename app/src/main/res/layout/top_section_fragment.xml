@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#cec9c9">
 
-    <TextView
+    <EditText
         android:id="@+id/topTextInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -10,7 +11,7 @@
         android:layout_marginTop="15dp"
         android:width="300dp"/>
 
-    <TextView
+    <EditText
         android:id="@+id/bottomTextInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,5 +26,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
         android:text="@string/button_text"/>
+
 
 </RelativeLayout>
